@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.users {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.list-item {
+  align-self: flex-start;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.list-group-item {
+  align-self: flex-start;
+  margin-bottom: 10px;
+  padding: 9px;
+}
+
+.active {
+  background-color: rgb(24, 86, 185);
+  color: #fff;
+}
+
+.list-item, .list-group-item {
+  list-style-type: none;
+}
